@@ -1,4 +1,4 @@
-#Atividades
+# TO-DO
 
 Aplicação construida com PHP 7 e Vue.js 2.6, no Backend foi usado SlinFamework, e no front foi usado Vue-bootstrap. Banco de dados foi usado o MYSQL. Abaixo segue as intruções para rodar a aplicação e poder testar.
 
