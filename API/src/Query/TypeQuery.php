@@ -4,11 +4,6 @@ namespace App\Query;
 
 class TypeQuery extends Connection
 {
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
     public function getAll()
     {
         $sql = 'SELECT * FROM types ORDER BY title ASC';
