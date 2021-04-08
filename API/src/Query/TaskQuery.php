@@ -4,11 +4,6 @@ namespace App\Query;
 
 class TaskQuery extends Connection
 {
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
     public function getAll()
     {
         $sql = 'SELECT * FROM tasks ORDER BY date_limite ASC';
